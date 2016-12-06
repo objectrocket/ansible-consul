@@ -36,7 +36,7 @@ Here is a list of all the default variables for this role, which are also availa
 
 ```yml
 ---
-consul_version: 0.7.0
+consul_version: 0.7.1
 consul_archive: "consul_{{ consul_version }}_linux_amd64.zip"
 consul_download: "https://releases.hashicorp.com/consul/{{ consul_version }}/{{ consul_archive }}"
 consul_download_username: ""
